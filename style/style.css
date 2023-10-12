@@ -104,13 +104,20 @@ body{
     text-decoration-line: underline;
 }
 
+.conteudo__secao{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 .conteudo__secao h2{
+    width: 100vw;
     background-color: var(--cor-fundo-topico);
     font-weight: 600;
-    margin: 0 7.5px 0 7.5px;
+    margin: 0;
     padding: 4px 0;
     text-align: center;
-    border-radius: 15px;
+    border-radius: 0;
     font-size: 26px;
 }
 
