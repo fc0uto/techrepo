@@ -14,6 +14,7 @@ body{
     background-color: var(--cor-background);
     margin: 0;
     padding: 0;
+    word-wrap: break-word;
 }
 
 .cabecalho__nav{
@@ -78,7 +79,7 @@ body{
 }
 
 .corpo__intro{
-    text-align: justify;
+    text-align: left;
 }
 
 .texto__1, .texto__2{
@@ -128,7 +129,7 @@ code{
 }
 
 .secao__titulo{
-    width: 100vw;
+    width: 99.9999%;
     background-color: var(--cor-fundo-topico);
     font-weight: 600;
     margin: 0;
