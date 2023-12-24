@@ -3,11 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
 
 :root{
-    /*
-    --cor-texto: #2C3639;
-    --cor-fundo-topico: #A27B5C;
-    --cor-background: #DCD7C9;
-    */
     --cor-texto: #222a2c;
     --cor-fundo-topico: #A27B5C;
     --cor-background: #e6e3db;
@@ -16,15 +11,12 @@
 }
 
 body{
-    /*
-    background-color: #2C3639;
-    */
     background-color: var(--cor-background);
     margin: 0;
     padding: 0;
 }
 
-.cabecalho nav{
+.cabecalho__nav{
     color: var(--cor-texto);
     font-family: var(--fonte-secundaria);
     display: flex;
@@ -40,7 +32,7 @@ body{
     margin-right: auto;
 }
 
-.cabecalho h1{
+.nav__titulo{
     padding: 4px 10px;
     font-size: 30px;
     text-align: center;
@@ -57,7 +49,7 @@ body{
     z-index: 1;
 }
 
-.cabecalho img{
+.nav__img{
     width: 80px;
     height: 80px;
     z-index: 0;
@@ -74,30 +66,40 @@ body{
     text-align: justify;
 }
 
-
-.corpo__intro p{
+.texto__1, .texto__2{
     margin: 30px 20px 10px 20px;
     font-size: 21.5px;
+}
 
+.texto__2{
+    display: none;
+}
+
+code{
+    background-color: var(--cor-fundo-topico);
+    color: var(--cor-background);
+    border-radius: 5px;
+    padding: 0 7px;
+    margin: 0;
 }
 
 .corpo__intro .texto__2{
     margin: 10px 20px 10px 20px;
 }
 
-.corpo__intro h2{
+.corpo__titulo{
     margin: 30px 20px 10px 20px;
     font-size: 26px;
 }
 
-.corpo__intro li{
+.intro__lista__item{
     margin: 10px 20px 0 30px;
     padding: 3px 0;
     font-size: 20px;
     list-style-type: decimal;
 }
 
-.corpo__intro a{
+.intro__lista__link{
     color: var(--cor-texto);
     font-weight: 600;
     text-decoration: none;
@@ -110,7 +112,7 @@ body{
     padding: 0;
 }
 
-.conteudo__secao h2{
+.secao__titulo{
     width: 100vw;
     background-color: var(--cor-fundo-topico);
     font-weight: 600;
@@ -121,12 +123,12 @@ body{
     font-size: 26px;
 }
 
-.conteudo__secao h3{
+.secao__subtitulo{
     margin: 20px 20px 0 20px;
     font-size: 24px;
 }
 
-.conteudo__secao li{
+.secao__lista__item{
     padding: 3px 0;
     margin: 10px 20px 0 30px;
     font-size: 20px;
@@ -134,7 +136,7 @@ body{
     list-style-type: square;
 }
 
-.conteudo__secao a{
+.secao__item__link{
     color: var(--cor-texto);
     text-decoration: none;
     text-decoration-line: underline;
