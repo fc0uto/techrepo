@@ -71,7 +71,7 @@ body{
     font-size: 21.5px;
 }
 
-.texto__2{
+.texto__2, .secao__reserva{
     display: none;
 }
 
