@@ -140,13 +140,18 @@ code{
 }
 
 .secao__subtitulo{
-    margin: 20px 20px 0 20px;
+    padding: 0;
+    margin: 20px 0 0 20px;
     font-size: 24px;
 }
 
+.secao__lista{
+    padding: 0;
+    margin: 0 0 40px 70px;
+}
+
 .secao__lista__item{
-    padding: 3px 0;
-    margin: 10px 20px 0 30px;
+    padding: 5px 0;
     font-size: 20px;
     text-align: left;
     list-style-type: square;
