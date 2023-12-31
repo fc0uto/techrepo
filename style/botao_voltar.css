@@ -1,0 +1,16 @@
+
+.corpo__voltar{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: var(--cor-branca);
+    border-radius: 100%;
+    border: 2px solid var(--cor-texto);
+    padding: 5px;
+    margin: 0;
+}
+
+.voltar__img{
+    height: 40px;
+    width: 40px;
+}

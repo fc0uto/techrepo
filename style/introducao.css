@@ -1,0 +1,36 @@
+.corpo__intro{
+    margin: 15px 0;
+    text-align: left;
+}
+
+.intro__texto{
+    padding: 20px 0;
+    margin: 0 20px;
+    font-size: 21.5px;
+    text-align: justify;
+}
+
+.corpo__titulo{
+    padding: 0;
+    margin: 0 0 0.5px 20px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.intro__lista{
+    margin: 0 70px;
+    padding: 0;
+}
+
+.intro__lista__item{
+    padding: 6.5px 0 0 0;
+    text-align: left;
+    font-size: 20px;
+    list-style-type: decimal;
+}
+
+.intro__lista__link{
+    color: var(--cor-texto);
+    font-weight: 600;
+    text-decoration: none;
+}

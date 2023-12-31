@@ -1,0 +1,40 @@
+
+.cabecalho__nav{
+    color: var(--cor-texto);
+    font-family: var(--fonte-secundaria);
+    display: flex;
+    gap: 7.5px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cor-fundo-topico);
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav__titulo{
+    padding: 4px 10px;
+    font-size: 30px;
+    text-align: center;
+    color: var(--cor-texto);
+    background-color: var(--cor-fundo-topico);
+    border-radius: 3px;
+    border: 3px solid #e6e3db;
+}
+
+.nav__texto__logo{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    z-index: 1;
+}
+
+.nav__img{
+    width: 80px;
+    height: 80px;
+    z-index: 0;
+    position: absolute;
+}

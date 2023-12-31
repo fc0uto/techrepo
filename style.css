@@ -1,0 +1,37 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+@import url('./style/botao_voltar.css');
+@import url('./style/nav.css');
+@import url('./style/introducao.css');
+@import url('./style/conteudo.css');
+@import url('./style/rodape.css');
+
+:root{
+    --cor-texto: #222a2c;
+    --cor-fundo-topico: #A27B5C;
+    --cor-background: #e6e3db;
+    --cor-branca: #fff;
+    --fonte-primaria: 'Krona One', sans-serif;
+    --fonte-secundaria: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: var(--cor-background);
+    word-wrap: break-word;
+}
+
+.corpo{
+    color: var(--cor-texto);
+    font-family: var(--fonte-secundaria);
+}
+
+body, .corpo{
+    margin: 0;
+    padding: 0;
+}
+
+.intro__texto-2, .secao__reserva{
+    display: none;
+}
+
